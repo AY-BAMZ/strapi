@@ -62,7 +62,7 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::category.category",
-      "mappedBy": "Duplex"
+      "mappedBy": "houses"
     }
   }
 }

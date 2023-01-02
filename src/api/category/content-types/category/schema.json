@@ -17,12 +17,7 @@
       "required": true,
       "unique": true
     },
-    "RoomSet": {
-      "type": "string",
-      "unique": true,
-      "required": true
-    },
-    "Duplex": {
+    "houses": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::house.house",
